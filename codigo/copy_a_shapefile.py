@@ -1,6 +1,12 @@
+#!/usr/bin/env python
+__license__ = "GPL"
+__version__ = "1.0.0"
+__maintainer__ = "120m4n"
+__email__ = "romansarmientogomez+python@gmail.com"
 '''
 copia un shapefile a otro, modificando el tamaño de un campo propiedad
 '''
+
 
 import fiona
 import gdal
