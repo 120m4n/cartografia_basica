@@ -15,6 +15,7 @@ activate carto
   pip install GDAL-2.3.2-cp36-cp36m-win_amd64.whl
   pip install Fiona-1.7.13-cp36-cp36m-win_amd64.whl
   pip install Shapely-1.6.4.post1-cp36-cp36m-win_amd64.whl
+  pip install pyproj-1.9.5.1-cp36-cp36m-win_amd64.whl
 ```
 ### Instalar los paquetes necesarios: 64 bits
 ./paquetes/32bits
@@ -22,6 +23,7 @@ activate carto
   pip install GDAL-2.2.4-cp36-cp36m-win32.whl
   pip install Fiona-1.7.11.post1-cp36-cp36m-win32.whl
   pip install Shapely-1.6.4.post1-cp36-cp36m-win32.whl
+  pip install pyproj-1.9.5.1-cp36-cp36m-win32.whl
 ```
 ### Ejm: Creacion de punto
 ```python
