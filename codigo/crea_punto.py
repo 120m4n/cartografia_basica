@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-__license__ = "GPL"
-__version__ = "1.0.0"
-__maintainer__ = "120m4n"
-__email__ = "romansarmientogomez+python@gmail.com"
+# -*- coding: utf-8 -*-
+__author__ = "120m4n"
+"""Creacion de un archivo shapefile tipo punto
+"""
 
 import gdal
 import fiona

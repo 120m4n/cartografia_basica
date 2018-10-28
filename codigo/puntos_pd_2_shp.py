@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+__author__ = "120m4n"
+'''
+Utiliza el paquete GeoPandas
+Convertir lista de pares de puntos de un archivo csv a un objeto shapefile tipo punto
+'''
 from fiona.crs import from_epsg
 import geopandas
 import os
@@ -28,14 +35,3 @@ print("proceso finalizado")
 elapsed = (time.time() - start)
 print(' TIEMPO TOTAL DE PROCESAMIENTO')
 print ('		' + str(elapsed/60)+" Minutos")
-
-# Let's take a copy of our layer
-#data_proj = point.copy()
-
-# Reproject the geometries by replacing the values with projected ones
-#data_proj['geometry'] = data_proj['geometry'].to_crs(epsg=4326)
-#data_proj.crs = from_epsg(4326)
-#data_proj.to_file(driver = 'ESRI Shapefile', filename= "result_proj.shp")
-
-
-#print(data_proj.crs)

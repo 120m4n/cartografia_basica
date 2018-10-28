@@ -1,7 +1,13 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+__author__ = "120m4n"
+'''
+Convertir lista de pares de puntos de un archivo csv a un objeto shapefile tipo punto
+'''
 import csv
+import gdal
 import fiona
 from fiona.crs import from_epsg
-import gdal
 import os
 from shapely.geometry import mapping, Point
 import time

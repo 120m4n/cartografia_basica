@@ -1,5 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+__author__ = "120m4n"
 '''
-Convertir lista de pares de puntos en archivo csv a linea
+Convertir lista de pares de puntos de un archivo csv a linea
 '''
 
 import csv

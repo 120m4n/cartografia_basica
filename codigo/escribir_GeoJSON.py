@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+__author__ = "120m4n"
+"""Creacion de un archivo geojson tipo linea
+"""
+
 from shapely.geometry import mapping, LineString
 import fiona
 import os
