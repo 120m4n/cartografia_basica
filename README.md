@@ -4,10 +4,13 @@ Creación de archivos geograficos (shapefile,geojson) tipo punto y tipo linea a 
 ## Requisitos
 
 - Crear ambiente virtual
-conda create --name carto python=3.6
-
+```python
+	conda create --name carto python=3.6
+```	
 - activar ambiente
-activate carto
+```python
+	activate carto
+```
 
 ### Instalar los paquetes necesarios: 64 bits
 ./paquetes/64bits
@@ -107,6 +110,9 @@ schema = {
     }                
 }
 ```
-El archivo final contendra 3 columnas 
+5. las lineas siguentes crean el archivo shapefile en la ruta designada
+```
+with fiona.open(output,'w', driver='ESRI Shapefile', crs=f_crs, schema=schema) as c:
+````
 
 
