@@ -1,11 +1,12 @@
-'''
-Modo basico para la creacion de un punto
-'''
+#!/usr/bin/env python
+__license__ = "GPL"
+__version__ = "1.0.0"
+__maintainer__ = "120m4n"
+__email__ = "romansarmientogomez+python@gmail.com"
 
 import gdal
 import fiona
 from fiona.crs import from_epsg
-import csv
 import os
 from shapely.geometry import mapping, Point
 import time
@@ -16,8 +17,8 @@ xy=['-73.11422580154978,7.118116751350779,0']
 
 output = os.path.realpath('./shapefiles/temp_point.shp')
 
-#proyeccion cartografica UTM 16 N
-f_crs=from_epsg(32616)
+#proyeccion 
+f_crs=from_epsg(4326)
 
 # columnas contenidas en el archivo shapefile
 schema = {
