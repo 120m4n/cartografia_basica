@@ -115,4 +115,10 @@ schema = {
 with fiona.open(output,'w', driver='ESRI Shapefile', crs=f_crs, schema=schema) as c:
 ````
 
+# FIX--
+Se debe importar el paquete "gdal" antes que el paquete ""Fiona"
+```python
+import gdal
+import fiona
+```
 
