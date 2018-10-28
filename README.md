@@ -109,7 +109,10 @@ schema = {
                 'Y'  :   'int:10'
     }                
 }
+
 ```
+![detalle de la dbase.df](https://github.com/120m4n/cartografia_basica/blob/master/imagenes/Captura.PNG)
+
 5. las lineas siguentes crean el archivo shapefile en la ruta designada
 ```
 with fiona.open(output,'w', driver='ESRI Shapefile', crs=f_crs, schema=schema) as c:
