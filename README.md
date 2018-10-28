@@ -45,7 +45,6 @@ schema = {
                 'TIPOPINTA':   'int:3',
                 'X'  :   'int:10',
                 'Y'  :   'int:10'
-
     }                
 }
 
@@ -86,6 +85,19 @@ coordenadas geográficas o coordenadas cartesianas o planas
 ```
 #proyeccion 
 f_crs=from_epsg(4326)
+---
+- 4326 : wgs84... google maps, earth, gps ....
+- 3116: MAGNA-SIRGAS / Colombia Bogota zone
+- 21897: Bogota 1975 / Colombia Bogota zone
+- 32616: WGS 84 / UTM zone 16N
+```
+4. Asignamos el esquema. dBase que contiene data asociada al objeto geografico
+```
+* 'geometry': 'Point'    Tipo de elemento punto
+* Tres columnas
+	*'TIPOPINTA':   'int:3',
+        *'X'  :   'int:10',
+        *'Y'  :   'int:10'
 ```
 
 
