@@ -1,9 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+__author__ = "120m4n"
 '''
-Convierte una lista de puntos en coordenadas cartesianas a geograficas
+Transforma una lista de puntos en coordenadas cartesianas (MAGNA-SIRGAS) a geograficas (WGS84 LAT,LON)
 '''
-
-import csv
 import gdal
+import csv
 from shapely.geometry import mapping, Point
 import fiona
 from fiona.crs import from_epsg
