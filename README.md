@@ -4,11 +4,11 @@ Creación de archivos geograficos (shapefile,geojson) tipo punto y tipo linea a 
 ## Requisitos
 
 - Crear ambiente virtual
-```python
+```batch
 	conda create --name carto python=3.6
 ```	
 - activar ambiente
-```python
+```batch
 	activate carto
 ```
 
