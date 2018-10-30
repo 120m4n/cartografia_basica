@@ -10,9 +10,6 @@ import gdal
 from shapely.geometry import mapping,LineString
 import fiona
 from fiona.crs import from_epsg
-import pyproj
-from functools import partial
-from shapely.ops import transform
 import os
 
 inputfile = os.path.realpath('./datos/TRAMOBT_HONDURAS.csv')
