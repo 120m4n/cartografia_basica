@@ -10,10 +10,10 @@ import gdal
 from shapely.geometry import mapping,LineString
 import fiona
 from fiona.crs import from_epsg
-import pyproj
-from functools import partial
-from shapely.ops import transform
 import os
+import time
+
+start = time.time()
 
 inputfile = os.path.realpath('./datos/TRAMOBT_HONDURAS.csv')
 output = os.path.realpath('./shapefiles/TRAMOSBT.shp')
@@ -46,4 +46,8 @@ with open(inputfile, newline='') as csvfile:
         }
 	})
 print("proceso finalizado")
+
+elapsed = (time.time() - start)
+print(' TIEMPO TOTAL DE PROCESAMIENTO')
+print ('		' + str(elapsed)+" segundos")
 

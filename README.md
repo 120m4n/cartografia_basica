@@ -2,13 +2,16 @@
 Creación de archivos geograficos (shapefile,geojson) tipo punto y tipo linea a partir de archivos csv con coordenadas
 
 ## Requisitos
+- Tener instalado Anaconda
+- Tener un editor configurado (recomendado vscode)
+- Conocimiento básico de python
 
 - Crear ambiente virtual
-```python
+```batch
 	conda create --name carto python=3.6
 ```	
 - activar ambiente
-```python
+```batch
 	activate carto
 ```
 
