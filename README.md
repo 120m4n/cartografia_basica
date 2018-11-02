@@ -23,7 +23,7 @@ Creación de archivos geograficos (shapefile,geojson) tipo punto y tipo linea a 
   pip install Shapely-1.6.4.post1-cp36-cp36m-win_amd64.whl
   pip install pyproj-1.9.5.1-cp36-cp36m-win_amd64.whl
 ```
-### Instalar los paquetes necesarios: 64 bits
+### Instalar los paquetes necesarios: 32 bits
 ./paquetes/32bits
 ```
   pip install GDAL-2.2.4-cp36-cp36m-win32.whl
